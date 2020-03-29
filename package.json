@@ -1,9 +1,9 @@
 {
-    "name": "WhatShouldIWatch",
+    "name": "project-name",
     "version": "1.0.0",
-    "description": "A platform to find your next favorite movie. Written in Electron and React, therefore, it offers a clean and fast interface.",
+    "description": "project-description",
     "main": "index.js",
-    "repository": "https://github.com/LaksCastro/what-should-i-watch",
+    "repository": "https://github.com/LaksCastro/project-repo-name",
     "author": "LaksCastro",
     "license": "MIT",
     "private": false,
