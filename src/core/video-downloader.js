@@ -24,7 +24,7 @@ exports.VideoDownloader = function VideoDownloader(data) {
   }
 
   function onDownloading(_, downloaded, total) {
-    const percent = (downloaded / total) * 100;
+    const percent = Number(((downloaded / total) * 100).toFixed(1));
 
     io.to(socketClientId).emit("download-state-change", percent);
   }

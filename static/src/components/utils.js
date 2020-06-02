@@ -8,6 +8,7 @@ export function Utils() {
     document.body.appendChild(a);
     a.click();
     window.URL.revokeObjectURL(url);
+    a.remove();
   }
 
   const self = {

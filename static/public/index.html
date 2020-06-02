@@ -24,7 +24,15 @@
         </select>
       </div>
     </div>
-    <button class="main-form__button" type="submit" data-ripplet>Download</button>
+    <div class="main-form__button-container">
+      <button class="main-form__button" type="submit" data-ripplet>Download</button>
+      <div class="main-form__button-loading loading--disabled">
+        <div class="main-form__button-loading-indicator__container">
+          <p class="main-form__button-loading-indicator__text"></p>
+          <div class="main-form__button-loading-indicator__bar"></div>
+        </div>
+      </div>
+    </div>
   </form>
 </body>
 
