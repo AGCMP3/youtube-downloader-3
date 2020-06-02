@@ -15,11 +15,7 @@ exports.Server = function Server() {
 
   function configureSocketEvents() {
     const io = socket.getIo();
-
-    io.on("connect", (client) => {
-      console.log("a:");
-      console.log(client);
-    });
+    // Here any socket event can be implemented
   }
 
   function configure() {

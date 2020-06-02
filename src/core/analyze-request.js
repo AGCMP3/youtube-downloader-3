@@ -9,17 +9,20 @@ exports.AnalyzeRequest = function AnalyzeRequest(request) {
 
   const downloadAsVideo = request.headers["download-as-video"] === "true";
 
+  const socketClientId = request.headers["socket-client-id"];
+
+  const videoURL = request.headers["video-url"];
+
   const mime = downloadAsVideo ? MIME_TYPE_VIDEO : MIME_TYPE_SONG;
 
   const videoTempPath = path.resolve(DOWNLOAD_PATH, utils.id() + mime);
-
-  const videoURL = request.headers["video-url"];
 
   const data = {
     downloadAsVideo,
     mime,
     videoTempPath,
     videoURL,
+    socketClientId,
   };
 
   function getData() {

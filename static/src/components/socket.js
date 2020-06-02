@@ -25,5 +25,5 @@ export function Socket() {
     getSocket,
   };
 
-  Object.freeze(self);
+  return Object.freeze(self);
 }

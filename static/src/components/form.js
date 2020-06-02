@@ -3,8 +3,11 @@ import { Utils } from "./utils";
 
 import { Socket } from "./socket";
 
-export function Form() {
-  Socket();
+export async function Form() {
+  const io = Socket();
+
+  const id = await io.connect();
+  const socket = io.getSocket();
 
   const inputError = InputError();
   const utils = Utils();
@@ -12,6 +15,22 @@ export function Form() {
   const form = document.querySelector(".main-form");
 
   form.addEventListener("submit", onSubmit);
+
+  socket.on("fetch-info", () => {
+    console.log("fetching info...");
+  });
+
+  socket.on("start-download", () => {
+    console.log("downloading...");
+  });
+
+  socket.on("download-state-change", (percent) => {
+    console.log(percent + "%");
+  });
+
+  socket.on("download-complete", () => {
+    console.log("complete, enjoy");
+  });
 
   async function onSubmit(e) {
     e.preventDefault();
@@ -27,6 +46,7 @@ export function Form() {
       headers: {
         "video-url": videoURL,
         "download-as-video": downloadAsVideo.toString(),
+        "socket-client-id": id,
       },
     });
 
