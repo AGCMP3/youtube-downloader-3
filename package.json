@@ -2,5 +2,26 @@
   "name": "youtube-downloader",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LaksCastro/youtube-downloader"
+  },
+  "homepage": "https://lakscastro.github.io/youtube-downloader",
+  "scripts": {
+    "start": "nodemon src/index"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ffmpeg": "^0.0.4",
+    "ffprobe": "^1.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "socket.io": "^2.3.0",
+    "ytdl-core": "^2.1.5"
+  }
 }

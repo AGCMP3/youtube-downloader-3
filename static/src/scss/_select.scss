@@ -1,0 +1,13 @@
+.div-select {
+  width: 250px;
+  overflow: hidden;
+}
+
+.div-select select {
+  padding: 13px 20px 13px 12px;
+  background: transparent;
+  color: inherit;
+  select::-ms-expand {
+    display: none;
+  }
+}
