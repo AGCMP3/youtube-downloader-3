@@ -43,21 +43,18 @@ export function Loading() {
   }
 
   function setPercentage(percent) {
-    console.log("foi chamado caso 1");
     showLoader();
     showBar();
     bar.style.width = percent + "%";
   }
 
   function setText(text) {
-    console.log("foi chamado caso 2");
     showLoader();
     showText();
     label.textContent = text;
   }
 
   function resetState() {
-    console.log("foi chamado caso 3");
     setText("");
     hideText();
     hideBar();
