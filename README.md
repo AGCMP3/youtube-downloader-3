@@ -37,7 +37,7 @@ Now, open any Youtube Video and copy URL (Must be a video, not Playlist or any o
 <p align="center">
   <sub>Copyright © 2020-present, Laks Castro.</sub>
 </p>
-<p align="center">Web Snake Game Code <a href="https://github.com/LaksCastro/snake-game/blob/master/LICENSE.md">is MIT licensed 💖</a></p>
+<p align="center">Youtube Downloader Code <a href="https://github.com/LaksCastro/youtube-downloader/blob/master/LICENSE.md">is MIT licensed 💖</a></p>
 <p align="center">
   <img src="./src/assets/logo64.png" width="35" />
 </p>
