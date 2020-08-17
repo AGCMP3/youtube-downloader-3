@@ -3,7 +3,7 @@
 </p>
 <p align="center">⭐⭐⭐⭐⭐</p>
 <h2 align="center">Youtube Downloader - YTDL Core</h2>
-<h4 align="center"><a href="https://lakscastro.github.io/snake-game/blob/master/src/core"><code>View Code</code></a></h4>
+<h4 align="center"><a href="https://github.com/LaksCastro/youtube-downloader/blob/master/src/core"><code>View Code</code></a></h4>
 <p align="center">A implementation of YTDL Core to Download Youtube Video. Written in NodeJS</p>
 <p align="center">
   <img  src="https://img.shields.io/badge/category-general-orange" alt="Application Category" />
