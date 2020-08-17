@@ -1,3 +1,25 @@
+<p align="center">
+  <img src="/src/assets/logo.svg" width="150" />
+</p>
+<p align="center">⭐⭐⭐⭐⭐</p>
+<h1 align="center">Youtube Downloader - YTDL Core</h1>
+<h4 align="center"><a href="https://lakscastro.github.io/snake-game"><code>Play in Browser</code></a></h4>
+<p align="center">A implementation of classic Snake Game with HTML5 Canvas Engine. Written in Typescript</p>
+<p align="center">
+  <img  src="https://img.shields.io/badge/category-general-orange" alt="Application Category" />
+  <img  src="https://img.shields.io/badge/language-javascript-yellow" alt="Repo Main Language" />
+  <img  src="https://img.shields.io/badge/framework-express-blueviolet" alt="Module Bundler" />
+  <img  src="https://img.shields.io/badge/architecture-factory_functions-blueviolet" alt="Repo API" />
+  <img  src="https://img.shields.io/badge/type-project-success" alt="Repo Type" />
+  <img  src="https://img.shields.io/badge/name-youtube_downloader-red" alt="App Ref" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/lakscastro" target="_blank">
+    <img src="https://img.shields.io/twitter/url?label=Connect%20%40LaksCastro&logo=linkedin&url=https%3A%2F%2Fwww.twitter.com%2Flakscastro%2F" alt="Follow" />
+  </a>
+</p>
+
 ### How to use
 
 #### 1. First of all, install dependencies
