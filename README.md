@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="/src/assets/logo.svg" width="150" />
+  <img src="/assets/logo.svg" width="150" />
 </p>
 <p align="center">⭐⭐⭐⭐⭐</p>
-<h1 align="center">Youtube Downloader - YTDL Core</h1>
+<h2 align="center">Youtube Downloader - YTDL Core</h2>
 <h4 align="center"><a href="https://lakscastro.github.io/snake-game"><code>Play in Browser</code></a></h4>
 <p align="center">A implementation of classic Snake Game with HTML5 Canvas Engine. Written in Typescript</p>
 <p align="center">
