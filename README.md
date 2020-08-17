@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/assets/logo.svg" width="150" />
+  <img src="/assets/yt-logo.png" width="150" />
 </p>
 <p align="center">⭐⭐⭐⭐⭐</p>
 <h2 align="center">Youtube Downloader - YTDL Core</h2>
