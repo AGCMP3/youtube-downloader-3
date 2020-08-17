@@ -24,3 +24,19 @@ You will see a page like this:
 
 #### 4. Enjoy
 Now, open any Youtube Video and copy URL (Must be a video, not Playlist or any other Youtube resource) and paste on browser input and select output file as .mp3 or .mp4
+
+<br>
+<br>
+<br>
+<br>
+
+<h2 align="center">
+  Open Source
+</h2>
+<p align="center">
+  <sub>Copyright © 2020-present, Laks Castro.</sub>
+</p>
+<p align="center">Web Snake Game Code <a href="https://github.com/LaksCastro/snake-game/blob/master/LICENSE.md">is MIT licensed 💖</a></p>
+<p align="center">
+  <img src="./src/assets/logo64.png" width="35" />
+</p>
